@@ -1,0 +1,31 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String a,d;
+        int g,a1,a2,a3,a4,a5,t,av;
+        System.out.printf("Enter NAME :");
+        a= sc.nextLine();
+        System.out.printf("Enter DEPT :");
+        d = sc.nextLine();
+        System.out.print("Enter ROLL.NO :");
+        g = sc.nextInt();
+        System.out.print("Enter SUB 1 marks :");
+        a1 = sc.nextInt();
+        System.out.print("Enter SUB 2 marks :");
+        a2 = sc.nextInt();
+        System.out.print("Enter SUB 3 marks :");
+        a3 = sc.nextInt();
+        System.out.print("Enter SUB 4 marks :");
+        a4 = sc.nextInt();
+        System.out.print("Enter SUB 5 marks :");
+        a5 = sc.nextInt();
+        t=a1+a2+a3+a4+a5;
+        av=t/5;
+        System.out.printf("\nNAME: "+a);
+        System.out.print("\nROLL.NO: "+g);
+        System.out.printf("\nDEPT: "+d);
+        System.out.print("\nTOTAL :"+t);
+        System.out.print("\nAVERAGE :"+av);
+    }
+}
