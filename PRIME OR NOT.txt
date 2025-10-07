@@ -1,0 +1,27 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int a=0,b ;
+        System.out.print("Enter Num :");
+        b = sc.nextInt();
+        if(b==0||b==1||b==2){
+            System.out.print("Enter valid Num.");
+        }else{
+            for(int i=2;i<b;i++){
+                if(b%i==0){
+                    a=1;
+                    break;
+                }else{
+                    a=0;
+                }
+            }
+        }
+        if(a==1){
+            System.out.print(b+" is a composite number.");
+        }else{
+            System.out.print(b+" is a prime number.");
+            
+        }
+    }
+}
