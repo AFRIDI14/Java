@@ -1,0 +1,17 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String a,d;
+        int g;
+        System.out.printf("Enter name :");
+        a= sc.nextLine();
+        System.out.printf("Enter gender :");
+        d = sc.nextLine();
+        System.out.print("Enter age :");
+        g = sc.nextInt();
+        System.out.printf("\nNAME: "+a);
+        System.out.print("\nAGE: "+g);
+        System.out.printf("\nGENDER: "+d);
+    }
+}
