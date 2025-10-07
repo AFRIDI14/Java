@@ -1,0 +1,14 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner ( System.in);
+        int a = 0;
+        int m ;
+        System.out.println("Enter no:");
+        m = sc .nextInt ();
+        for (int i=0;i<=m;i++){
+            a = a+i;
+            System.out.println(a);
+        }
+    }
+}
